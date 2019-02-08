@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoMappingObjects.Models\AutoMappingObjects.Models.csproj" />
+  </ItemGroup>
+
+</Project>

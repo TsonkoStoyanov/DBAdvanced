@@ -1,0 +1,54 @@
+<student>
+  <name>Ivan Ivanov</name>
+  <gender>male</gender>
+  <birthDate>1988/10/22</birthDate>
+  <phoneNumber></phoneNumber>
+  <email>ivan.ivanov@abb.bg</email>
+  <university>Software University</university>
+  <speciality>C# Web Developer</speciality>
+  <facultyNumber>19372846</facultyNumber>
+  <exams>
+    <exam>
+	  <name>Programing Basic</name>
+	  <dateTaken>2017/06/06</dateTaken>
+	  <grade>6.00</grade>
+    </exam>
+    <exam>
+	  <name>Programing Fundamentals</name>
+	  <dateTaken>2017/10/12</dateTaken>
+	  <grade>6.00</grade>
+    </exam>
+    <exam>
+	  <name>Db Advance</name>
+	  <dateTaken>2018/02/22</dateTaken>
+	  <grade>6.00</grade>
+    </exam>    
+  </exams>
+</student>
+<student>
+  <name>Petyr Petrov</name>
+  <gender>male</gender>
+  <birthDate>1986/01/22</birthDate>
+  <phoneNumber></phoneNumber>
+  <email>petur.petrov@abb.bg</email>
+  <university>Software University</university>
+  <speciality>C# Web Developer</speciality>
+  <facultyNumber>19372898</facultyNumber>
+  <exams>
+    <exam>
+	  <name>Programing Basic</name>
+	  <dateTaken>2017/06/06</dateTaken>
+	  <grade>5.00</grade>
+    </exam>
+    <exam>
+	  <name>Programing Fundamentals</name>
+	  <dateTaken>2017/10/12</dateTaken>
+	  <grade>5.20</grade>
+    </exam>
+    <exam>
+	  <name>Db Advance</name>
+	  <dateTaken>2018/02/22</dateTaken>
+	  <grade>4.00</grade>
+    </exam>    
+  </exams>
+</student>

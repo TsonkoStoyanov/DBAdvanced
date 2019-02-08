@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180809145354_Initial.cs" />
+    <Compile Remove="Migrations\20180809145536_Initial.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.EntityFrameworkCore.Proxies" Version="2.1.1" />
+    <PackageReference Include="microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeamBuilder.Models\TeamBuilder.Models.csproj" />
+  </ItemGroup>
+
+</Project>
